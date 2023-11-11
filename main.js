@@ -6,7 +6,7 @@ function verifyinputFormPresion() {
    if (!Number.isNaN(numeroregistroPresionS)) { 
           alert("El número introducido es " + numeroregistroPresionS);}
 var alertadeRegistroP1 = document.getElementById("alertadeRegistroP1");
-    alertadeRegistroP1.innerHTML = '<h3> El registro que introdujo es <span>' +  numeroregistroPresionS + '</span> / </h3> <span>' + numeroregistroPresionS + '</span> </h3>';
+    alertadeRegistroP1.innerHTML = '<h3> El registro que introdujo es <span>' +  numeroregistroPresionS + '</span> / <span>' + numeroregistroPresionS + '</span> </h3>';
   return false;
 }
 
