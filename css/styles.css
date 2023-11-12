@@ -62,14 +62,16 @@ input {
 
 
 #alertadeRegistroP1 h5 {
-  background: yellow;
+  background: grey;
   padding: 10px;
   margin: 10p;
   width: 360px;
   height: 60px;
 }
 
+
 #alertadeRegistroP1 span {
   color: #000;
   font-weight: bold;
 }
+
