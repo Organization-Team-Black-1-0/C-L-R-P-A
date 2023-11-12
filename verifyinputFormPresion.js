@@ -1,5 +1,3 @@
-
-
 function verifyinputFormPresion() {
 
   const fechaHoraActual = new Date();
@@ -15,7 +13,3 @@ function verifyinputFormPresion() {
 
 
 }
-
-
-document.querySelector("button").addEventListener("click", verifyinputFormPresion);
-
