@@ -61,13 +61,14 @@ input {
 
 
 
-#alertadeRegistroP1 h5 {
+#alertadeRegistroP1  {
   /*background: grey;*/
-  padding: 10px;
+    padding: 10px;
   margin: 10p;
-  width: 360px;
-  height: 60px;
+  width: 400px;
+  height: 80px;
 }
+
 
 
 #alertadeRegistroP1 span {
