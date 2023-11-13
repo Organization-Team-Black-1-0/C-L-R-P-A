@@ -1,54 +1,26 @@
-﻿/*.vista-check-list{
-  height: 50vw;
-  max-width: 670px;
-}*/
+﻿* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 
-/*.icon-check-list {
-  width: 30px;
-}
-*/
-/*.container {
-  display: grid;
-  grid-template-columns: 35px 35px 35px 500px;
-  grid-template-rows: repeat(5, 25px);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-}
-*/
-/*
-#resultado h3 {
-  background: yellow;
-  padding: 10px;
-  margin: 10p;
-  width: 360px;
-  height: 60px;
 }
 
-#resutado span {
-  color: #000;
-  font-weight: bold;
-}
-*/
-/*
-input[type="radio"] {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background-color: #fff;
-  color: #000;
-  border: 1px solid #ccc;
+/*.vista-check-list*/ body {
+  display: flex;
+  justify-content: center;
+  background-position: center;
+
+  background-color: rgba(106, 141, 163, 0.7);
+  flex-direction: column;
+  align-items: center;
+  max-height: max-content;
+  padding: 60px;
+  margin-top: 0px;
+
 }
 
-input[type="radio"]:checked {
-  background-color: #000;
-  color: #fff;
-}
-*/
-/*input[type="submit"] {
-  width: 100px;
-  height: 30px;
-  margin: 20px;
-}*/
+
+
 
 input {
   width: 200px;
@@ -57,35 +29,15 @@ input {
   padding: 5px;
 }
 
-
-
-
-
-#alertadeRegistroP1  {
+#alertadeRegistroP1 {
   /*background: grey;*/
-    padding: 10px;
+  padding: 10px;
   margin: 10p;
   width: 400px;
   height: 80px;
 }
 
-
-
 #alertadeRegistroP1 span {
   color: #000;
   font-weight: bold;
 }
-#alertadeRegistroP2 h5 {
-  background: grey;
-  padding: 10px;
-  margin: 10p;
-  width: 360px;
-  height: 60px;
-}
-
-
-#alertadeRegistroP2 span {
-  color: #000;
-  font-weight: bold;
-}
-
